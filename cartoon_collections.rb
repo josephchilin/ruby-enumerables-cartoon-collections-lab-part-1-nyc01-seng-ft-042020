@@ -15,7 +15,7 @@ def list_dwarves(array)
   
   array.each_with_index do |name, index|
     array[name] = index
-    index.to_i+1 = order
+    order = index.to_i+1
     puts "#{order}. #{name}"
     
   end
