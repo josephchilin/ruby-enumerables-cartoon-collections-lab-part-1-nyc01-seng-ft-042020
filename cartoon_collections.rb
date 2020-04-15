@@ -17,7 +17,7 @@ def list_dwarves(array)
     # array[name] = index
     # order = "#{index}".to_i+1
     order = index.to_i+1 
-    puts "#{index}. #{name}"
+    puts "#{order}. #{name}"
     
   end
 end
